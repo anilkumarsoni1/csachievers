@@ -131,7 +131,7 @@ body{
         }
       
   }
-  @media only screen and (min-width: 1001px) and (max-width: 1372px){
+  @media only screen and (min-width: 1001px){
       .sidenav{
           display: none;
       }
