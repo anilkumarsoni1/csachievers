@@ -74,12 +74,8 @@ body{
     color: rgba(222, 247, 4);
     
 }
-@media screen and (min-width: 412px){
-    .sidenav{
-       display: none;
-    }
-}
-@media screen and (max-width: 412px) {
+
+@media screen and (max-width: 966px) {
     .header .left{
         width: 50%;
     }
