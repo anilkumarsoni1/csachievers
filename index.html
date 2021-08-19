@@ -15,17 +15,39 @@
         <div class="header">
             <div class="left">
                <h2><span class="red">C</span ><span class="green">S</span><span class="blue">A</span>chievers</h2>
+               <div class="sidenav" id="mysidenav">
+                    <a href="javascript:void(0)"class="closebtn" onclick="closenav()">&times;</a>
+                    <a href="#">Home</a>
+                    <a href="#">About As</a>
+                    <a href="#">Youtube Links</a>
+                    <a href="#">Notes</a>
+                    <a href="#">Contact</a>
+               </div>
             </div>
-            <div class="right">
+            
+            <div class="right" >
                 <ul>
+                    
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About As</a></li>
                     <li><a href="#">Youtube Links</a></li>
                     <li><a href="#">Notes</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <div>
+                    <span class="menulines" onclick="opennav()">&#9776</span>
+                </div>
             </div>
-        </div>
+            
+        </div> 
     </div>
-</body>
+    <script>
+        const opennav=()=>{
+            document.getElementById('mysidenav').style.width="200px";
+        }
+        const closenav=()=>{
+            document.getElementById('mysidenav').style.width="0px";
+        }
+    </script>
+</body> 
 </html>
